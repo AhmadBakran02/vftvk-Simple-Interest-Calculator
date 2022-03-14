@@ -1,4 +1,25 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: #888;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+h1{
+    color:#222;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: 5px
+}
+
+button{
+    border-radius: 5px; 
+    outline: none;
+    border: none;
+    padding: 5px;
+}
 
