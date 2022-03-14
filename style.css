@@ -21,5 +21,16 @@ button{
     outline: none;
     border: none;
     padding: 5px;
+    width: 70%;
+    margin: 10px 55px
+}
+
+
+.f{
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
