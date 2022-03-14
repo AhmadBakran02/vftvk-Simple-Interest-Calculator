@@ -3,16 +3,31 @@
     <head>
         
         <link rel="stylesheet" href="style.css">
+        <title>Web App – Simple Interest Calculator</title>
     </head>
     <body>
+        <div class=f>
         <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <table>
+        <tr> <td>Amount</td>  <td><input type="number"  id="principal"></td></tr>
+        <tr><td>Rate</td> <td></progress></progress><input type="number"  id="rate"></td>  </tr>
+        <tr><td>No. of Years</td> <td><select id="years">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select> </td> </tr>
+        <tr><td>Interest :</td> <td><mark><span id="result"></span></mark></td>
+        </table>    
+        <button onclick="compute()">Compute</button><br>
+        Ⓒ Everyone Can Get Rich
+    </div>
         <script src="script.js"></script>
     </body>
 </html>
